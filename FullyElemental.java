@@ -7,6 +7,7 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
+import com.Thomas.Fully_Elemental.init.Blocks;
 import com.Thomas.Fully_Elemental.init.HeldItems;
 import com.Thomas.Fully_Elemental.proxy.CommonProxy;
 
@@ -19,6 +20,8 @@ public class FullyElemental {
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event)
 	{
+	Blocks.init();
+	Blocks.register();
 	HeldItems.init();
 	HeldItems.register();
 	}

@@ -1,0 +1,10 @@
+< en_US.lang - English localization file for the mod Fully Elemental >
+
+
+//this is for items//
+item.rock.name=Rock
+item.Loose_Sticks.name=Loose Sticks
+item.loose_obsidian_stone.name=Loose Obsidian Stone
+
+//this is for the blocks//
+tile.tutorial_block.name=Tutorial Block
